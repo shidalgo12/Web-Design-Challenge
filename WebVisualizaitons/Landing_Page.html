@@ -1,59 +1,66 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-
 <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Landing_Style.css">   
 </head>
 
 
 <body> 
-<!-- Header -->
-<h1 class="header">Lattitude</h1>
-<section>
-    <!-- Drop down menu -->
-    <select class="drop-down">
-        <option value="max_temp">Max Temperature</option>
-        <option value="humidity">Humidity</option>
-        <option value="cloud">Cloudiness</option>
-        <option value="wind">Wind Speed</option>
-    </select>
+<!-- Header & Navbar -->
+    <header class="header">
+        <span class="pg-name">Latitude</span>
+    </header>
+    
+    <nav class="navbar">
+        <select class="drop-down">
+            <option selected hidden>Plots</option>
+            <option value="max_temp">Max Temperature</option>
+            <option value="humidity">Humidity</option>
+            <option value="cloud">Cloudiness</option>
+            <option value="wind">Wind Speed</option>
+        </select>  
+        <a href="C:\Users\admin\HW\Web-Design-Challenge\WebVisualizaitons\Comparison_Page.html">Comparison</a>
+        <a href="C:\Users\admin\HW\Web-Design-Challenge\WebVisualizaitons\Data_Page.html">Data</a>
+    </nav>
 
-    <!-- Links -->
-
-</section>
-
-<br>
-<br>
-<br>
-
-<h1 class=body-headers>Summary: Lattitude vs. X</h1>
-<br>
-<section class=sum-vis>
-<img src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
-<p class=paragraphs>The purpose of this project was to analyze how weather
-    changes as you get closer to the equator.  To accomplish this
-    analysis, we first pulled data from the OpenWeatherMap API 
-    to assemble a dataset on over 500 cities.</p>
-<p class=paragraphs>After assemblingn the dataset, we used Matplotlib to plot
-    various aspects of the weather vs. latitude. Factors we looked</p>
-<p class=paragraphs>at included: temperature, cloudiness, wind speed and humidity.  This site provides the source
-    data and visualizations created as part of the analysis, as well as explanations and
-    descriptions of any trends and correlations witnessed.
-</p>
-</section>
-
-<section class=sum-vis>
-    <h2 class=body-headers>Visualizations</h2>
-    <!-- <img src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
-    <img src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
-    <img src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
-    <img src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png"> -->
-
-</section>
-<br>
+    <div class= "row">
+        <div class= "col-md-8">
+            <div class=summary>
+                <h1 class=section-headers>Summary: Latitude vs. X</h1>
+                <main class="container">
+                    <section id="lat-vs-x">
+                        <section id="figure">
+                            <img id = "sum-temp" src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
+                    </section>
+                    <p class=paragraph>The purpose of this project was to analyze how weather
+                        changes as you get closer to the equator.  To accomplish this
+                        analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 
+                        500 cities.
+                    </p>
+                    <br>
+                    <p class=paragraph> After assembling the dataset, we used Matplotlib to plot various aspects of 
+                        the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed
+                        and humidity.  This site provides the source data and visualizations created as part of the 
+                        analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                    </p> 
+                    </section>
+                </main>
+            </div>
+        </div>
+        <div class= "col-md-4">
+            <div class=visualization>
+                <h2 class=section-headers>Visualizations</h2>
+                <img id= "vis-temp" src="/Python-API-Challenge/WeatherPy/Lat_vs_Temp.png">
+                <img id= "vis-hum" src="/Python-API-Challenge/WeatherPy/Lat_vs_Humidity.png">
+                <img id= "vis-cloud" src="/Python-API-Challenge/WeatherPy/Lat_vs_Cloud.png">
+                <img id= "vis-wind" src="/Python-API-Challenge/WeatherPy/Lat_vs_Wind.png">
+            </div>
+        </div>
+    </div>
 
 </body>
 

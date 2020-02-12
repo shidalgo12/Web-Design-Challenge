@@ -1,17 +1,58 @@
 .header {
-    background-color: rgb(6, 189, 173);
-    color: white;
-  }
-
-  .sum-vis{
     background-color: white;
 }
 
-.body-headers{
-    color:  rgb(6, 189, 173)
+.pg-name {
+    background-color: rgb(6, 189, 173);
+    color: white;
+    font-size: 30pt;
+    margin: 40pt;
 }
 
-.paragraphs{
-    color: gray
+.navbar{
+    float: right;
+    margin-right: 12pt;
+}
+
+body {
+    background: lightgray;
+}
+
+.col-md-8{
+    padding: 50px;
+}
+
+.col-md-4{
+    padding: 150px;
+}
+
+.summary{
+    background-color: white;
+    width: 650px;
+    height: 500px;
+    margin-left: 12pt;
+
+}
+
+.visualization{
+    background-color: white;
+    width: 300px;
+    height: 400px;
+}
+
+#sum-temp{
+    float: left;
+}
+
+.section-headers{
+    color:  rgb(6, 189, 173);
+    padding: 5%;
+}
+
+.paragraph{
+    color: gray;
+    margin: 12pt;
+    text-align: justify;
+    
 }
 /* #plots */
