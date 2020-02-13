@@ -13,22 +13,22 @@
 <!-- Header & Navbar -->
     <header class="header">
         <span class="pg-name">Latitude</span>
-        <div class=navbar>
-            <select class="drop-down">
-                <option selected hidden>Plots</option>
-                <option value="max_temp" ><a href="Max_Temp.html"></a>Max Temperature</option>
-                <option value="humidity">Humidity</option>
-                <option value="cloud">Cloudiness</option>
-                <option value="wind">Wind Speed</option>
-            </select>  
-            <a class = "links" href="Landing_Page.html">Home</a>
-            <a class = "links" href="Comparison_Page.html">Comparison</a>
-            <a class = "links" href="Data_Page.html">Data</a>
-        </div>
+        
         
     </header>
         
-        
+    <!-- <div class=navbar>
+        <select class="drop-down">
+            <option selected hidden>Plots</option>
+            <option value="max_temp" ><a href="Max_Temp.html"></a>Max Temperature</option>
+            <option value="humidity">Humidity</option>
+            <option value="cloud">Cloudiness</option>
+            <option value="wind">Wind Speed</option>
+        </select>  
+        <a class = "links" href="Landing_Page.html">Home</a>
+        <a class = "links" href="Comparison_Page.html">Comparison</a>
+        <a class = "links" href="Data_Page.html">Data</a>
+    </div>      -->
 
 <!-- drop down & links = 1 list, selections is a list within the list -->
 <!-- <div class="dropdown show">
@@ -43,8 +43,6 @@
     </div>
   </div>
          -->
-    <br>
-    <br>
     <br>
     <div class= "row">
         <div class= "col-sm-12 col-md-8">
@@ -61,7 +59,7 @@
                         analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 
                         500 cities.
                     </p>
-                    <br>
+                    <p></p>
                     <p class=paragraph> After assembling the dataset, we used Matplotlib to plot various aspects of 
                         the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed
                         and humidity.  This site provides the source data and visualizations created as part of the 
@@ -82,7 +80,14 @@
             </div>
         </div>
     </div>
+    <br>
 
+    <footer class= bottom>
+        <p class="copyright">
+            &copy; Copyright Coding Bootcamp 2020
+        </p>
+    </footer>
+    
 </body>
 
 

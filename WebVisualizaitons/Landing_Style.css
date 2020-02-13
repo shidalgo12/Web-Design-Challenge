@@ -21,6 +21,7 @@
 .links{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #888888;
+    margin-left: 15pt;
 }
 .comparison-link{
     margin-left: 15pt;
@@ -30,9 +31,6 @@
     margin-left: 15pt;
 }
 
-.links{
-    margin-left: 15pt;
-}
 
 body {
     background: lightgray;
@@ -46,41 +44,59 @@ body {
 
 .summary{
     background-color: white;
+    width: 88%;
+    height: 390px;
+    margin-left: 50px;
+    margin bottom: 15px;
+    box-shadow: 5px 5px #888888;
+}
+
+/* .summary{
+    background-color: white;
     width: 750px;
     height: 500px;
     margin-left: 50px;
     margin-right: 10px;
     margin bottom: 60px;
     box-shadow: 5px 5px #888888;
-}
+} */
+
 
 .visualization{
+    background-color: white;
+    width: 88%;
+    height: 350px;
+    margin-right: 50px;
+    box-shadow: 5px 5px #888888;
+}
+
+/* .visualization{
     background-color: white;
     width: 350px;
     height: 450px;
     margin-right: 50px;
     margin-bottom: 60px;
     box-shadow: 5px 5px #888888;
-}
+} */
 
 #vis-temp{
-    width: 170px;
-    height: 150px;
+    width: 45%;
+    margin-left: 5%;
 }
 
 #vis-hum{
-    width: 170px;
-    height: 150px; 
+    width: 45%;
+    margin right: 5%;
 }
 
 #vis-cloud{
-    width: 170px;
-    height: 150px;
+    width: 45%;
+    margin-left: 5%;
 }
 
 #vis-wind{
-    width: 170px;
-    height: 150px;
+    width: 45%;
+   margin-right: 3%;
 }
 
 .vis-hr{
@@ -93,6 +109,7 @@ body {
 
 #sum-temp{
     float: left;
+    width: 40%;
 }
 
 .paragraph{
@@ -101,6 +118,11 @@ body {
     text-align: justify;  
 }
 
-.navbar{
-    float right: ;
+.bottom{
+    background-image: linear-gradient(-90deg, rgb(6, 189, 173), white) ;
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    margin-bottom: 0px;
 }
