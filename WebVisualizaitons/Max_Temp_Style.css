@@ -1,0 +1,59 @@
+.header {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.pg-name {
+    background-color: rgb(6, 189, 173);
+    color: white;
+    font-size: 30pt;
+    margin: 40pt;
+}
+
+.navbar{
+    float: right;
+    margin-right: 15pt;
+}
+
+.comparison-link{
+    margin-left: 15pt;
+}
+
+.data-link{
+    margin-left: 15pt;
+}
+
+body {
+    background: lightgray;
+}
+
+.summary{
+    background-color: white;
+    width: 750px;
+    height: 500px;
+    margin-left: 50px;
+    margin-right: 10px;
+    margin bottom: 60px;
+}
+
+.visualization{
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+}
+
+.section-headers{
+    color:  rgb(6, 189, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5%;
+}
+
+.paragraph{
+    color: gray;
+    margin: 12pt;
+    text-align: justify;  
+}

@@ -1,0 +1,31 @@
+.header {
+    background-color: white;
+}
+
+.pg-name {
+    background-color: rgb(6, 189, 173);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30pt;
+    margin: 40pt;
+}
+
+body {
+    background: lightgray;
+}
+
+.navbar{
+    float: right;
+    margin-right: 12pt;
+}
+
+a{
+    padding: 15pt;
+}
+
+.section-headers{
+    color:  rgb(6, 189, 173);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5%;
