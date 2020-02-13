@@ -18,6 +18,10 @@
     margin-right: 15pt;
 }
 
+.links{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #888888;
+}
 .comparison-link{
     margin-left: 15pt;
 }
