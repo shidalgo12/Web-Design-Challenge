@@ -101,6 +101,7 @@ body {
     margin-left: 50px;
     margin bottom: 15px;
     box-shadow: 5px 5px #888888;
+    margin-top 12pt;
 }
 
 /* .summary{
@@ -120,6 +121,7 @@ body {
     height: 350px;
     margin-right: 50px;
     box-shadow: 5px 5px #888888;
+    margin-top: 12pt;
 }
 
 /* .visualization{
@@ -134,6 +136,7 @@ body {
 #vis-temp{
     width: 45%;
     margin-left: 5%;
+    
 }
 
 #vis-hum{
@@ -148,15 +151,15 @@ body {
 
 #vis-wind{
     width: 45%;
-   margin-right: 3%;
+    margin-right: 3%;
 }
 
 .vis-hr{
-    width: 300px;
+    width: 90%;
 }
 
 .sum-hr{
-    width: 700px;
+    width: 95%;
 }
 
 #sum-temp{
