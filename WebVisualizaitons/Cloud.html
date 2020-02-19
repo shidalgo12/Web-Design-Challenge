@@ -1,34 +1,53 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <title>Cloudiness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="Landing_Style.css">   
+    <link rel="stylesheet" href="Visualization_Style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 </head>
 
+<body>
+    <br>
+    <br>
 
-<body> 
-<!-- Header & Navbar -->
-    <header class="header">
-        <span class="pg-name">Latitude</span>
-    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <div class= "summary">
+                    <h1 class=section-headers>Cloudiness</h1>
+                    <hr class= sum-hr>
+                    <img id = "plot" src="Lat_vs_Cloud.png">
+                    <p class=paragraph>
+                        XXX
+                    </p>
+                </div>
+            </div>
+            <div class="col-sm-12 col-lg-4">
+                <div class = "visualizations">
+                    <h2 class=section-headers>Visualizations</h2>
+                    <hr class="vis-hr">
+                    <a href="Max_Temp.html"><img id= "vis-temp" src="Lat_vs_Temp.png"></a>
+                    <a href="Humidity.html"><img id= "vis-temp" src="Lat_vs_Humidity.png"></a>
+                    <a href="Cloud.html"><img id= "vis-temp" src="Lat_vs_Cloud.png"></a>
+                    <a href="Wind.html"><img id= "vis-temp" src="Lat_vs_Wind.png"></a>
+                </div>
+            </div>
+    </div>
 
+    <br>
 
-     <nav class="navbar">
-    <select class="drop-down">
-        <option selected hidden>Plots</option>
-        <option value="max_temp">Max Temperature</option>
-        <option value="humidity">Humidity</option>
-        <option value="cloud">Cloudiness</option>
-        <option value="wind">Wind Speed</option>
-    </select>  
-    <a href="C:\Users\admin\HW\Web-Design-Challenge\WebVisualizaitons\Comparison_Page.html">Comparison</a>
-    <a href="C:\Users\admin\HW\Web-Design-Challenge\WebVisualizaitons\Data_Page.html">Data</a>
-</nav>
-
+    <footer class= bottom>
+        <p class="copyright">
+            &copy; Copyright Coding Bootcamp 2020
+        </p>
+    </footer>
+    
 </body>
 
-
 </html>
+
+</body>

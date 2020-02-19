@@ -1,77 +1,58 @@
-body{
-  background-color: lightgray;
+navbar-custom {
+  background-color: #fff;
 }
-
-header{
-  background-color: linear-gradient(to right, rgb(6, 189, 173), white);
+#logo {
+  /* Box-model */
+  height: 60px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  /* Positioning */
+  margin-left: 70px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  /* Typography */
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  /* Visual */
+  background: #4aaaa5;
 }
-
-/* Navbar container */
-.navbar {
-  overflow: hidden;
-  background-color: teal;
+/* Logo hover state */
+#logo:hover {
+  /* Visual */
+  opacity: 0.7;
+}
+.navbar-right-custom {
+  /* Box-model */
+  padding-top: 6px;
+  padding-right: 20px;
+  /* Typography */
   font-family: Arial;
+  font-weight: lighter;
 }
-
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+/* Nav element hover state */
+.navbar-default .navbar-nav > li > a:hover {
+  color: #4aaaa5;
 }
-
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+/* Media query for nav */
+@media only screen and (max-width: 767px) {
+  .navbar-header {
+    background-color: #4aaaa5;
+  }
+  #logo {
+    width: 100%;
+    /* Box-model */
+    height: 60px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    /* Positioning */
+    margin-left: 0;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    /* Typography */
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    /* Visual */
+    background: #4aaaa5;
+  }
 }
-
-/* Dropdown button */
-.dropdown .dropbtn {
-  font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: gray;
-  font-family: Arial, Helvetica, sans-serif; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
-}
-
-/* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: darkgray;
-}
-
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+/* -----NAV END---- */
