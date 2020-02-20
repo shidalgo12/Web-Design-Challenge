@@ -48,6 +48,10 @@ nav ul li ul{
   position: absolute;
   background-color: white;
   padding: 10px;
+  z-index:99;
+  /* border-style: groove;
+  border-color: darkgray; */
+  
 }
 
 /* display dropdown options on hover */
@@ -70,7 +74,7 @@ footer{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 60px;
-    position: absolute;
+    /* position: sticky; */
     left: 0;
     right: 0;
     bottom: 0pt;
@@ -97,6 +101,7 @@ footer{
   /* margin-left: 50px; */
   margin-right: 40%;
   margin bottom: 15px;
+  /* box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19); */
   box-shadow: 5px 5px #888888;
 }
 

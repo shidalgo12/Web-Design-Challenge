@@ -48,6 +48,7 @@ nav{
     position: absolute;
     background-color: white;
     padding: 10px;
+    z-index:99;
   }
   
   /* display dropdown options on hover */
@@ -70,7 +71,7 @@ nav{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 60px;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     right: 0;
     bottom: 0pt;
@@ -99,6 +100,7 @@ nav{
     margin-right: 40%;
     margin bottom: 15px; */
 }
+
 
 .sum-hr{
         width: 95%;
