@@ -1,93 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
     <meta charset="UTF-8">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="nav_style.css">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="nav_style.css">   
 </head>
 
+
 <body>
-  <nav class="navbar navbar-default">
-    <div class="container-fluid navbar-custom">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="row">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <div class="col-xs-9 phone-nav">
-            <a class="navbar-brand" href="#" id="logo">Lattitude</a>
-          </div>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right navbar-right-custom">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-               <li><a href="visualizations/temp.html">Max Temperature</a></li>
-                <li><a href="visualizations/humidity.html">Humidity</a></li>
-                <li><a href="visualizations/cloudiness.html">Cloudiness</a></li>
-                <li><a href="visualizations/wind.html">Wind Speed</a></li>
-              </ul>
+    <nav>
+        <p class="pg-name">Latitude</p>
+        <ul class="links">
+            <li><a href="#">Plots</a>
+                <ul>
+                    <li><a href="Max_Temp.html">Max Temperature</a></li>
+                    <li><a href="Humidity.html">Humidity</a></li>
+                    <li><a href="Cloud.html">Cloudiness</a></li>
+                    <li><a href="Wind.html">Wind Speed</a></li>
+                </ul>
             </li>
-            <li><a href="comparison.html">Comparison</a></li>
-            <li><a href="data.html">Data</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
-    </div><!-- /.container-fluid -->
-  </nav>
+            <li><a href="Landing_Page.html">Home</a></li>
+            <li><a href="Comparison_Page.html">Comparison</a></li>
+            <li><a href="Data_Page.html">Data</a></li>
+        </ul>
+    </nav>
 
+    <br>
+    <br>
 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-8">
+                <div class= "summary">
+                    <h1 class=section-headers>Summary: Latitude vs. X</h1>
+                    <hr class= sum-hr>
+                    <main class="container">
+                        <section id="lat-vs-x">
+                            <section id="figure">
+                                <img id = "sum-temp" src="Lat_vs_Temp.png">
+                        </section>
+                        <p class=paragraph>The purpose of this project was to analyze how weather
+                            changes as you get closer to the equator.  To accomplish this
+                            analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 
+                            500 cities.
+                        </p>
+                        <p></p>
+                        <p class=paragraph> After assembling the dataset, we used Matplotlib to plot various aspects of 
+                            the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed
+                            and humidity.  This site provides the source data and visualizations created as part of the 
+                            analysis, as well as explanations and descriptions of any trends and correlations witnessed.
+                        </p> 
+                        </section>
+                    </main>
+                </div>
+            </div>
 
-  <!-- <nav id="navbar-example2" class="navbar navbar-light bg-light">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <ul class="nav nav-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#fat">@fat</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#mdo">@mdo</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#one">one</a>
-          <a class="dropdown-item" href="#two">two</a>
-          <div role="separator" class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#three">three</a>
-        </div>
-      </li>
-    </ul>
-  </nav> -->
-
-
-  <!-- <nav>
-    <p class=pg-name>Latitude</p>
-    <ul>
-        <li><a href="#">Plots</a>
-            <ul>
-                <li><a href="Max_Temp.html">Max Temperature</a></li>
-                <li><a href="Humidity.html">Humidity</a></li>
-                <li><a href="Cloud.html">Cloudiness</a></li>
-                <li><a href="Wind.html">Wind Speed</a></li>
-            </ul>
-        </li>
-        <li><a href="Landing_Page.html">Home</a></li>
-        <li><a href="Comparison_Page.html">Comparison</a></li>
-        <li><a href="Data_Page.html">Data</a></li>
-    </ul>
-</nav> -->
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+            <div class="col-sm-12 col-lg-4">
+                <div class = "visualizations">
+                    <h2 class=section-headers>Visualizations</h2>
+                    <hr class="vis-hr">
+                    <a href="Max_Temp.html"><img id= "vis-temp" src="Lat_vs_Temp.png"></a>
+                    <a href="Humidity.html"><img id= "vis-temp" src="Lat_vs_Humidity.png"></a>
+                    <a href="Cloud.html"><img id= "vis-temp" src="Lat_vs_Cloud.png"></a>
+                    <a href="Wind.html"><img id= "vis-temp" src="Lat_vs_Wind.png"></a>
+                </div>
+            </div>
+    </div>
+    <br>
+    <footer class= bottom>
+        <p class="copyright">
+            &copy; Copyright Coding Bootcamp 2020
+        </p>
+    </footer>
 </body>
 
 </html>
