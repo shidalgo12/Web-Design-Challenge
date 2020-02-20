@@ -74,10 +74,9 @@ footer{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 60px;
-    /* position: sticky; */
+    position: absolute;
     left: 0;
     right: 0;
-    bottom: 0pt;
     width: 100%;
 }
 
@@ -109,7 +108,7 @@ footer{
   width: 95%;
 }
 
-#sum-temp{
+#sum-img{
   float: left;
   width: 40%;
 }
