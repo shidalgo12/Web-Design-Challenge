@@ -89,6 +89,9 @@ nav{
     padding-left: 20pt;
   }
 
+.container{
+    height: 275px;
+}
 .summary{
     background-color: white;
     width: 100%;
