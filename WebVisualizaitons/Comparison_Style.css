@@ -93,7 +93,7 @@ p{
 
 .container{
     text-align: center;
-    padding: 2%;
+    padding-bottom: 12pt;
 }
 .section-back{
     background: white;
@@ -101,6 +101,11 @@ p{
     width: 80%;
 }
 
+.image{
+    display: block;
+}
+
+/* increase image size with curser on top of image   */
 .image:hover{
     transform: scale(1.05);
 }
