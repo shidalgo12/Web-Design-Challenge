@@ -8,28 +8,28 @@ A Landing Page was created to summarize all plots along with links to 6 individu
 
 ### Landing Page
 
-![]WebVisualizations/Images/Landing_Page.png
+![](WebVisualizations/Images/Landing_Page.png)
 
 ### Max Temperature Analysis
 
-![]WebVisualizations/Images/Max_Temp.png
+![](WebVisualizations/Images/Max_Temp.png)
 
 ### Humidity Analysis
 
-![]WebVisualizations/Images/Humidity.png
+![](WebVisualizations/Images/Humidity.png)
 
 ### Cloudiness Analysis
 
-![]WebVisualizations/Images/Cloudiness.png
+![](WebVisualizations/Images/Cloudiness.png)
 
 ### Wind Speed Analysis
 
-![]WebVisualizations/Images/Wind_Speed.png
+![](WebVisualizations/Images/Wind_Speed.png)
 
 ### Weather Comparison
 
-![]WebVisualizations/Images/Comparison.png
+![](WebVisualizations/Images/Comparison.png)
 
 ### Data
 
-![]WebVisualizations/Images/Data.png
+![](WebVisualizations/Images/Data.png)
